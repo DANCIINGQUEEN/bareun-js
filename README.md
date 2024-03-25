@@ -198,7 +198,7 @@ Array&lt;String&gt; String array.
 
 
 ## How to use
-```
+```js
     let host="nlp.bareun.ai"
     let {LanguageServiceClient, Tagger, CustomDict}  = require("bareun");
     let language_service_client = new LanguageServiceClient(host);
